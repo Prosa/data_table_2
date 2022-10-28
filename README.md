@@ -1,7 +1,7 @@
 [![Pub Version](https://img.shields.io/pub/v/data_table_2?label=pub.dev&labelColor=333940&logo=flutter)](https://pub.dev/packages/data_table_2) [![GitHub](https://img.shields.io/github/license/maxim-saplin/data_table_2?color=%23007A88&labelColor=333940)](https://github.com/maxim-saplin/data_table_2/blob/main/LICENSE) [![Tests](https://github.com/maxim-saplin/data_table_2/workflows/Dev%20Build/badge.svg)](https://github.com/maxim-saplin/data_table_2/actions) [![Codecov](https://img.shields.io/codecov/c/github/maxim-saplin/data_table_2/nndb?labelColor=333940&logo=codecov&logoColor=white)](https://codecov.io/gh/maxim-saplin/data_table_2)
 
-This is a copy of official [data_table_2](https://pub.dev/packages/data_table_2) package
-I copied just to adjust few things and use it. I have no intention of making any type of profit out of this code-source.
+This is a copy of official [data_table_2](https://pub.dev/packages/data_table_2) package.
+I copied it just to adjust few things and use it. I have no intention of making any type of profit out of this code-source.
 
 *! Don't put the widgets inside unbounded parents. You don't need scrollables anymore (e.g. `SingleChildScrollView`) - widgets handle scrolling by theirselves. If you need a widget inside a `Column()`, wrap it into `Expanded()` or `Flexible()`.*
 
